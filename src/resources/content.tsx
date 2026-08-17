@@ -118,36 +118,29 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Decathlon",
+        timeframe: "2025 (5 months)",
+        role: "Sales Adviser",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Advised clients to provide tailored solutions and collaborated effectively in a dynamic team environment.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-         
-        ],
+        images: [],
       },
+    ],
+  },
+  internships: {
+    display: true,
+    title: "Internships",
+    experiences: [
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Sonelgaz",
+        timeframe: "2025",
+        role: "Cybersecurity Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Assisted in monitoring network traffic for security threats, conducted vulnerability assessments, and helped implement security protocols to protect critical infrastructure.
           </>,
         ],
         images: [],

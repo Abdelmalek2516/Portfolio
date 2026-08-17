@@ -171,6 +171,35 @@ export interface About extends BasePageConfig {
       }>;
     }>;
   };
+  /** Internships section */
+  internships: {
+    /** Whether to display internships */
+    display: boolean;
+    /** Title for the internships section */
+    title: string;
+    /** List of internships */
+    experiences: Array<{
+      /** Company name */
+      company: string;
+      /** Timeframe of internship */
+      timeframe: string;
+      /** Role or job title */
+      role: string;
+      /** Achievements at the company */
+      achievements: React.ReactNode[];
+      /** Images related to the experience */
+      images?: Array<{
+        /** Image source path */
+        src: string;
+        /** Image alt text */
+        alt: string;
+        /** Image width ratio */
+        width: number;
+        /** Image height ratio */
+        height: number;
+      }>;
+    }>;
+  };
   /** Studies/education section */
   studies: {
     /** Whether to display studies section */
