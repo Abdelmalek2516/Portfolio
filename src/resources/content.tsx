@@ -15,8 +15,8 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.lastName}'s Newsletter</>,
-  description: <>My weekly newsletter about creativity and engineering</>,
+  title: <>Want to collaborate?</>,
+  description: <>Have a project in mind or want to discuss opportunities? Send me an email!</>,
 };
 
 const social: Social = [
